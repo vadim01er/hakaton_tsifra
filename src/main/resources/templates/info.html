@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sty.css">
+  <title>ИСМДП</title>
+
+</head>
+<body>
+  
+  <header>
+    <!-- <h1>Информационная система <br> для мониторинга <br> дорожного покрытия</h1> -->
+    <a th:href="@{/index}" class="btn">Запустить приложение</a>
+    <img src="/bck.png" alt="">
+  </header>
+  <section>
+    <div class="main">
+      <!-- left -->
+      <div class="nav">
+        <div class="wrap">
+          <span id="nav">Навигация:</span>
+          <a href="#intro">
+            <div class="nav1"></div>
+          </a>
+          <a href="#func">
+            <div class="nav2"></div>
+          </a>
+          <a href="#app">
+            <div class="nav3"></div>
+          </a>
+          <a href="#app">
+            <div class="nav4"></div>
+          </a>
+          <a href="#about">
+            <div class="nav5"></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="line"></div>
+
+      <!-- right -->
+      <div class="content">
+        <div class="f_section">
+          <span id="intro">Введение:</span>
+          <span id="func">Функционал:</span>
+          <span id="app">Приложение:</span>
+          <span id="about">Контакты / Партнерство:</span>
+        </div>
+      </div>
+    </div>
+    <div class="hr"></div>
+    <div class="app"></div>
+    <div class="about"></div>
+  </section>
+
+</body>
+</html>
